@@ -13,9 +13,7 @@
   <a href="#license">License</a>
 </p>
 
-<div align="center">
 ![screenshot](/countdown-react-preview.gif)
-</div>
 
 ## Key Features
 
