@@ -69,4 +69,4 @@ MIT
 ---
 
 [jan-wagenaar.nl](https://www.jan-wagenaar.nl) &nbsp;&middot;&nbsp;
-GitHub [@amitmerchant1990](https://github.com/jan-wagenaar) &nbsp;&middot;&nbsp;
+GitHub [@jan-wagenaar](https://github.com/jan-wagenaar) &nbsp;&middot;&nbsp;
