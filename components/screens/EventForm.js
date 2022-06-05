@@ -22,17 +22,9 @@ const EventForm = ({ route }) => {
   
   const navigation = useNavigation();
 
-  useEffect(() => {
-    if(route.params.id !== 0) {
-      getEventById(route.params.id, function(eventRec) { 
-        setEvent({
-          ...eventRec[0],
-          date: parseISO(eventRec[0].datetime),
-          time: parseISO(eventRec[0].datetime),
-        })
-      })
-    }
-  }, []);
+  /*
+    Add data retrieval function here
+  */
 
   const insertEvent = () => {
     const mappedEvent = {
@@ -52,10 +44,9 @@ const EventForm = ({ route }) => {
   };
 
   const updateEventDate = date => {
-    setEvent({
-      ...event,
-      date: date
-    });
+    /*
+    Add onChange event here
+    */
   };
 
   const updateEventTime = time => {
@@ -81,19 +72,9 @@ const EventForm = ({ route }) => {
             placeholder="Enter name"
           />
         </View>
-        <View style={styles.date}>
-          <Text
-              style={styles.label}
-          >
-            Date
-          </Text>
-          <View style={styles.datePicker}>
-            <DatePicker 
-              date={event.date}
-              onChange={updateEventDate}
-            />
-          </View>
-        </View>
+        {/*
+        Implement date picker widget here
+        */}
         <View style={styles.time}> 
           <Text
             style={styles.label}

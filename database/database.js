@@ -51,15 +51,9 @@ const updateEventById = (event, successFunc) => {
 }
 
 const deleteEventById = ( id, callBackFunc ) => {
-  db.transaction(
-    tx => {
-      tx.executeSql(
-        'DELETE FROM events WHERE events.ID = (?)', 
-        [id])
-    },
-    (t, error) => { console.log("db error deleting event"); console.log(error) },
-    (_t, _success) => { callBackFunc(); console.log("Deleted event")}
-  );
+  /*
+  Add action to delete events here
+  */
 }
 
 const dropDatabaseTablesAsync = async () => {

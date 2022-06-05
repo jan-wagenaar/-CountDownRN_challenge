@@ -1,14 +1,10 @@
 import React from 'react';
-import DateTimePicker from '@react-native-community/datetimepicker';
+// import date picker here
 
 const DatePicker = ({ date, onChange }) => {
-    return (
-        <DateTimePicker 
-            mode="date" 
-            value={ date }
-            onChange={(event, value) => onChange(value)}
-        />
-    )
+ /* 
+    Enter the date pickers code here
+ */
 }
 
 export default DatePicker;
